@@ -1,0 +1,226 @@
+/* inter-regular - latin_cyrillic */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("/fonts/inter-v11-latin_cyrillic-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("/fonts/inter-v11-latin_cyrillic-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-500 - latin_cyrillic */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+    url("/fonts/inter-v11-latin_cyrillic-500.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("/fonts/inter-v11-latin_cyrillic-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-600 - latin_cyrillic */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""),
+    url("/fonts/inter-v11-latin_cyrillic-600.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("/fonts/inter-v11-latin_cyrillic-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* inter-700 - latin_cyrillic */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""),
+    url("/fonts/inter-v11-latin_cyrillic-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("/fonts/inter-v11-latin_cyrillic-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+body {
+  margin: 0;
+  box-shadow: none;
+}
+.main-boss {
+  background: #e7e7e7;
+  padding: 80px 0px;
+}
+.juft {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+.one {
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-img {
+  width: 510px;
+  margin: 0;
+  margin-right: 12px;
+  padding-top: 55px;
+  padding-left: 60px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  background-image: url("../img/Rectangle\ 6.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.bg-img-two {
+  padding-bottom: 240px;
+}
+
+.fron-and-back {
+  padding: 5px 15px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}
+.div-lear {
+  width: 339px;
+  margin-top: 65px;
+  margin-bottom: 25px;
+}
+.Learn {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #ffffff;
+}
+.mini-text-div {
+  width: 307px;
+}
+.mini-text {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.mani-aside {
+  width: 570px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 28px;
+  padding-bottom: 20px;
+  background: #4dc490;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.two-aside {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.mani {
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.smal-mani {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.sectwo {
+  background-image: none;
+  border-radius: 20px;
+  background: #ffffff;
+  margin: 0;
+}
+.sign-box {
+  width: 342px;
+  margin-bottom: 79px;
+}
+.sign {
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  color: #000000;
+}
+
+.input-text {
+  width: 450px;
+  outline: none;
+  border: 0;
+  margin-bottom: 35px;
+  padding: 5px 5px 11px 5px;
+  border-bottom: 1px solid #000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.input-text::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #555555;
+}
+.input-text-three {
+  margin-bottom: 65px;
+}
+.knop {
+  border: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 8px;
+  background: #655af2;
+  padding: 20px 149px;
+  border-radius: 10px;
+  color: #ffffff;
+}
+.By {
+  padding-left: 50px;
+  padding-bottom: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #555555;
+}
+.Tersm {
+  color: #ff0000;
+}
