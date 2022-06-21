@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css.css/main.css" />
+    <!-- <link rel="stylesheet" href="/css.css/normalis.css">
+    <link rel="stylesheet" href="/css.css/minify.css"> -->
     <title>Document</title>
   </head>
   <body>
@@ -49,43 +51,58 @@
                   method="post"
                   autocomplete="off"
                 >
-                  <input
-                    class="input-text"
-                    type="text"
-                    aria-label="Anna"
-                    name="Anna"
-                    placeholder="name"
-                    required
-                  />
+                  <label>
+                    <input
+                      class="input-text"
+                      type="text"
+                      aria-label="name"
+                      name="name"
+                      minlength="2"
+                      placeholder="name"
+                      required
+                    />
+                    <span class="red-span">First Name cannot be empty</span>
+                  </label>
 
-                  <input
-                    class="input-text two-input-text"
-                    type="text"
-                    aria-label="Last_name"
-                    name="Last_name"
-                    placeholder="Last name"
-                    required
-                  />
+                  <label>
+                    <input
+                      class="input-text two-input-text"
+                      type="text"
+                      aria-label="Last_name"
+                      name="Last_name"
+                      minlength="2"
+                      placeholder="Last name"
+                      required
+                    />
+                    <span class="red-span">First Name cannot be empty</span>
+                  </label>
 
-                  <input
-                    class="input-text two-input-text"
-                    type="email"
-                    aria-label="Email Address"
-                    name="Email-adres"
-                    placeholder="Email Address"
-                    required
-                  />
+                  <label>
+                    <input
+                      class="input-text two-input-text"
+                      type="email"
+                      aria-label="Email Address"
+                      name="Email-adres"
+                      placeholder="Email Address"
+                      required
+                    />
+                    <span class="red-span"
+                      >Looks like this is not an email</span
+                    >
+                  </label>
 
-                  <input
-                    class="input-text two-input-text input-text-three"
-                    type="password"
-                    min="7"
-                    aria-label="Password"
-                    name="Password"
-                    placeholder="Password"
-                    required
-                  />
-
+                  <label>
+                    <input
+                      class="input-text two-input-text input-text-three"
+                      type="password"
+                      aria-label="Password"
+                      name="Password"
+                      minlength="6"
+                      placeholder="Password"
+                      required
+                    />
+                    <span class="red-span">Password cannot be empty</span>
+                  </label>
                   <button class="knop" type="submit">
                     Claim your free trial
                   </button>
